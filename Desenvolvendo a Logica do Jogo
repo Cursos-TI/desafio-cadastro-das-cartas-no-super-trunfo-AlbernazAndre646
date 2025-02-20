@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+
+    float PIBcarta1, PIBcarta2;
+
+    printf("Entre com o PIB da Carta 1: \n");
+
+    scanf("%f", &PIBcarta1);
+
+    printf("Entre com PIB da Carta 2: \n");
+
+    scanf("%f", &PIBcarta2);
+
+    if (PIBcarta1 > PIBcarta2){
+        printf("Carta 1 venceu!\n");
+    }else{
+        printf("Carta 2 venceu!\n");
+    }
+    
+    return 0;
+}
